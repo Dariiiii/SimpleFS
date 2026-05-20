@@ -1,0 +1,12 @@
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.order
+*.symvers
+.tmp_versions/
+Module.symvers
+modules.order
+userspace/simplefs_cli
+*Zone.Identifier*
