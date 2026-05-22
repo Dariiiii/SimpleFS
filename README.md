@@ -51,7 +51,7 @@ sudo insmod simplefs.ko \
 
 ```bash
 sudo mkdir -p /mnt/simplefs
-sudo mount -t simplefs_hw $LOOP_DEV /mnt/simplefs
+sudo mount -t simplefs $LOOP_DEV /mnt/simplefs
 ```
 
 ### 4. Демонстрации корректности работы модуля
